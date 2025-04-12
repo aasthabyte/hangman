@@ -8,7 +8,7 @@ public class HangmanGame {
     public static void main(String[] args){
 //       JAVA HANGMAN GAME
 
-        String filepath = "src\\words.txt";
+        String filepath = "words.txt";
         ArrayList<String> words = new ArrayList<>();
         try(BufferedReader reader = new BufferedReader(new FileReader(filepath))){
             String line ;
